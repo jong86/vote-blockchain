@@ -1,7 +1,5 @@
 pragma solidity ^0.4.17;
 
-import "./ConvertLib.sol";
-
 contract Voting {
 	/* mapping field below is equivalent to an associative array or hash.
 	The key of the mapping is candidate name stored as type bytes32 and value is
