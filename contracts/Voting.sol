@@ -15,10 +15,10 @@ contract Voting {
     bytes32[] public candidateList;
 
     /* This is the constructor which will be called once when you
-    deploy the contract to the blockhain. When we deploy the contract,
+    deploy the contract to the blockchain. When we deploy the contract,
     we will pass an array of candidates who will be contesting in the election
     */
-    function Voting(bytes32[] candidateNames) public {
+    constructor(bytes32[] candidateNames) public {
         candidateList = candidateNames;
     }
 
